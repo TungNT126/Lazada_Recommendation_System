@@ -90,7 +90,7 @@ while(True):
         break
 
 #Save the final dataframe to a CSV file
-all_data.to_csv('lazada_data.csv', index=False)
+all_data.to_csv('raw.csv', index=False)
 
 # Close the browser
 #driver.quit()
